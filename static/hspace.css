@@ -1,0 +1,275 @@
+body {
+    font-family: Helvetica;
+    font-size: 14px;
+
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+/*    border-color: black;
+    border-style: solid;*/
+}
+
+div.centered {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.signup {
+    font-family: helvetica;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    word-spacing: -0.5em;
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: helvetica;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: left;
+    display: block;
+    width: 700px;
+    /*margin: 20px auto;*/
+}
+
+h4 {
+    font-family: helvetica;
+    font-size: 14px;
+    display: inline-block;
+    width: 125px;
+    margin: 5px 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+/*h3 {
+    font-family: monospace;
+    font-size: 2em;
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+}
+div.centered {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+form {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+input {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+}
+input.submit {
+    display: inline;
+    text-align: center;
+    width: 75px;
+}
+textarea {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+    height: 250px;
+}
+*/
+.error {
+    color: red;
+}
+
+label {
+    display: inline-block;
+    font-size: 20px;
+    width: 325px;
+    margin: 0 auto;
+}
+
+label + label {
+    margin-top: 20px;
+}
+
+label.label {
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type=text] {
+    width: 500px;
+    font-size: 20px;
+    padding: 2px;
+    font-family: monospace;
+
+}
+
+textarea {
+  width: 1000px;
+  height: 400px;
+  font-size: 17px;
+}
+
+input[type=submit] {
+  font-size: 24px;
+}
+
+input.form {
+    display: inline-block;
+    margin: 5px auto;
+    width: 150px;
+    height: 12px;
+    padding: 2px;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.main-title {
+    font-family: helvetica;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    word-spacing: -0.5em;
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+    padding: 0px 0px;
+    /*margin: 50px auto;*/
+    text-decoration: none;
+    color: #000;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.header-container {
+    width: 1000px;
+    height: 75px;
+    /*margin: 25px 0px;*/
+    text-align: left;
+    padding: 0px 0px;
+    border-bottom: 1px solid black;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+div.title {
+    width: 730px;
+    display:inline-block;
+    text-decoration: none;
+    padding: 0px 0px;
+  /*  border-color: black;
+    border-style: solid;*/
+}
+
+div.toolbar {
+    width: 250px;
+    margin: 50px 0px;
+    display:inline-block;
+    text-align: right;
+    padding: 0px 0px;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.header {
+    /*width: 50px;*/
+    display:inline-block;
+    text-decoration: none;
+    padding: 0px 0px;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.header-left {
+    /*width: 50px;*/
+    display:inline-block;
+    text-decoration: none;
+    border-left: 1px solid black;
+    padding-left: 5px;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.edit {
+    display:inline-block;
+    /*width: 75px;*/
+    text-align: left;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.history {
+    display:inline-block;
+    /*width: 75px;*/
+    padding-left: 5px;
+    padding-right: 25px;
+    border-left: 1px solid black;
+    text-align: left;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.main-body {
+    width: 1000px;
+    text-align: left;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.page-history {
+    width: 1000px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.version-version {
+    width: 25px;
+    text-align: left;
+    display: inline-block;
+}
+
+.version-created {
+    width: 100px;
+    text-align: left;
+    display: inline-block;
+}
+
+.version-content {
+    width: 700px;
+    text-align: left;
+    display: inline-block;
+}
+
+.version-form {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+}
+
+.button {
+    width:40px;
+    text-align: center; 
+}
+
+.invisible {
+    visibility: hidden;
+    width:0px;
+    height:0px;
+}

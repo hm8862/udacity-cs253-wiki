@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<br>
+	<br>
+	{% for page in history %}
+		{{page}}
+		<br>
+	{% endfor %}
+{% endblock %}

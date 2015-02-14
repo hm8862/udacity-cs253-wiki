@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="/static/hspace.css" />
+		
+		<title>hspace wiki</title>
+	</head>
+
+	<body>
+		<div class = "header-container">
+			<div class = "title">
+				<h1><a href="/blog" class = "main-title">hspace</a></h1>
+			</div>
+			<div class = "toolbar">
+				<div class = "edit">
+					<a href="{{a[1]}}" class = "link">{{a[0]}}</a>	
+				</div>
+				<div class = "history">
+					<a href="{{b[1]}}" class = "link">{{b[0]}}</a>	
+				</div>
+				<div class = "header">
+					<a href="{{c[1]}}" class = "link">{{c[0]}}</a>
+				</div>
+				<div class = "header-left">
+					<a href="{{d[1]}}" class = "link">{{d[0]}}</a>
+				</div>
+			</div>
+		</div>
+		<!-- get existing blog posts -->
+		<div id="content" class = "main-body">
+			{% block content %}
+			{% endblock %}
+		</div>
+	</body>
+
+</html>

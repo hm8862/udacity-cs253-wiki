@@ -1,0 +1,30 @@
+	{% extends "base.html" %}
+
+{% block content %}
+	<br>
+	<br>
+	{% for v in h %}
+		<div class = "page-history">
+			<div class = "version-version">
+				{{v.version}}
+			</div>
+			<div class = "version-created">
+				{{v.created}}
+			</div>
+			<div class = "version-content">
+				{{v.content|safe}}
+			</div>
+			<div class = "version-form">
+				<form class = "version-form" action="{{v.title}}" method = "get">
+					<input class="invisible" type="text" name="view" value="{{v.version}}">
+					<input class="button" type = "submit" value = "view">
+				</form>
+				<form class = "version-form" action="{{v.edit_link}}" method = "get">
+					<input class="invisible" type="text" name="edit" value="{{v.version}}">
+					<input class="button" type = "submit" value = "edit">
+				</form>
+			</div>
+		</div>
+		<br>
+	{% endfor %}
+{% endblock %}
